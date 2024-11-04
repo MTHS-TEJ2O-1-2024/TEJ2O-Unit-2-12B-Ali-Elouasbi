@@ -1,8 +1,8 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
- * This program ...
+ * Created by: Ali Elouasbi
+ * Created on: Oct 2024
+ * This program turns on neopixels at a certain distance
 */
 
 // Variables
