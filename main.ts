@@ -11,6 +11,7 @@ let neopixelStrip: neopixel.Strip = neopixel.create(DigitalPin.P16, 4, NeoPixelM
 
 // Setup
 basic.showIcon(IconNames.Happy)
+basic.clearScreen()
 
 // When button A is pressed
 input.onButtonPressed(Button.A, function () {
@@ -19,7 +20,6 @@ input.onButtonPressed(Button.A, function () {
         DigitalPin.P2,
         PingUnit.Centimeters
     )
-
     // Turns on all neopixels Red
     if (distanceToObject < 10) {
         neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
